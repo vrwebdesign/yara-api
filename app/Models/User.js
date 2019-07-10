@@ -9,9 +9,9 @@ class User extends Model {
       'email',
       'mobile',
       'mobile',
-      'FullName',
+      'fullName',
       'birthDateYear',
-      'jender',
+      'gender',
       'role'
     ];
   }

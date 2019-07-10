@@ -9,10 +9,10 @@ class UserSchema extends Schema {
       table.increments();
       table.string('email');
       table.string('mobile');
-      table.string('FullName');
+      table.string('fullName');
       table.integer('birthDateYear');
-      table.integer('jender');
-      table.integer('role');
+      table.enum('gender', ['male', 'female']);
+      table.enum('role', ['patient', 'doctor']);
       table.boolean('is_deleted').defaultTo(false);
       table.timestamps();
     });
