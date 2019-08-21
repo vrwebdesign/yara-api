@@ -6,9 +6,7 @@ const Schema = use('Schema');
 class AddFieldsSchema extends Schema {
   up() {
     this.table('users', table => {
-      table
-        .enum('role', ['patient', 'doctor', 'subscribeToNewsLetter'])
-        .alter();
+      table.enum('role', ['patient', 'doctor', 'patientAccompanier']).alter();
       table
         .boolean('subscribeToNewsLetter')
         .defaultTo(true)
