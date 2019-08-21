@@ -4,6 +4,12 @@
 const Model = use('BaseModel');
 
 class User extends Model {
+  static boot() {
+    super.boot();
+
+    this.addTrait('ConvertBoolean');
+  }
+
   static get allowField() {
     return [
       'email',
@@ -12,8 +18,12 @@ class User extends Model {
       'fullName',
       'birthDateYear',
       'gender',
-      'role'
+      'role',
+      'subscribeToNewsLetter'
     ];
+  }
+  static get booleanFields() {
+    return ['subscribeToNewsLetter'];
   }
 }
 
