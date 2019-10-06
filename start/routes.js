@@ -17,3 +17,4 @@
 const Route = use('Route');
 
 Route.resource('/users', 'UserController');
+Route.get('pdf/:id', 'PdfController.show');
