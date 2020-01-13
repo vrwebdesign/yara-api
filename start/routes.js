@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /*
 |--------------------------------------------------------------------------
@@ -14,7 +14,11 @@
 */
 
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
-const Route = use('Route');
+const Route = use("Route");
 
-Route.resource('/users', 'UserController');
-Route.get('pdf/:id', 'PdfController.show');
+// /** @type {import('@adonisjs/drive/src/DriveManager')} */
+// const Drive = use("Drive");
+
+Route.resource("/users", "UserController");
+Route.get("pdf/:id", "PdfController.show");
+Route.get("pdf/:id/source", "PdfController.source");
