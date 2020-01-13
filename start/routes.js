@@ -20,5 +20,8 @@ const Route = use("Route");
 // const Drive = use("Drive");
 
 Route.resource("/users", "UserController");
-Route.get("pdf/:id", "PdfController.show");
-Route.get("pdf/:id/source", "PdfController.source");
+Route.get("view-pdf/:id", "PdfController.show");
+// Route.get("pdf/:id/source", "PdfController.source");
+Route.get("pdfreader/:id", ({ view, params: { id } }) => {
+  return view.render("pdfreader", { id });
+});

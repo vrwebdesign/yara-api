@@ -17,6 +17,7 @@ const providers = [
   "@adonisjs/cors/providers/CorsProvider",
   "@adonisjs/lucid/providers/LucidProvider",
   "@adonisjs/drive/providers/DriveProvider",
+  "@adonisjs/framework/providers/ViewProvider",
   "vrwebdesign-adonis/BaseModel/providers/BaseModelProvider",
   "vrwebdesign-adonis/Helper/providers/HelperProvider"
 ];
