@@ -7,6 +7,10 @@ class PdfController {
     response.redirect(`${GOOGLE_DRIVE}?url=${BASE_URL}/${id}.pdf/source`);
   }
   async source({ response, params: { id } }) {
+    const is_exist = await Drive.exists(`pdf/${id}.pdf`);
+    if (!is_exist) {
+      return response.status(404).send("404 not found");
+    }
     let pdf = await Drive.getStream(`pdf/${id}.pdf`);
     return pdf.pipe(response.response);
   }
