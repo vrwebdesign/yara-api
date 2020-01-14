@@ -7,7 +7,7 @@ module.exports = {
 
   disks: {
     local: {
-      root: "static",
+      root: "public",
       driver: "local"
     }
   }

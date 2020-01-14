@@ -15,13 +15,25 @@
 
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
 const Route = use("Route");
+// const pdf2html = require("pdf2html");
+var pdftohtml = require("pdftohtmljs");
 
 // /** @type {import('@adonisjs/drive/src/DriveManager')} */
 // const Drive = use("Drive");
 
 Route.resource("/users", "UserController");
 Route.get("view-pdf/:id", "PdfController.show");
-// Route.get("pdf/:id/source", "PdfController.source");
+Route.get("pdf/:id/source", "PdfController.source");
 Route.get("pdfreader/:id", ({ view, params: { id } }) => {
+  // var converter = new pdftohtml("./public/pdf/1.pdf", "sample.html");
+  // converter
+  //   .convert("ipad")
+  //   .then(function() {
+  //     console.log("Success");
+  //   })
+  //   .catch(function(err) {
+  //     console.error("Conversion error: " + err);
+  //   });
+  // return "<h1>hello</h1>";
   return view.render("pdfreader", { id });
 });
