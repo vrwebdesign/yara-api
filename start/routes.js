@@ -16,7 +16,7 @@
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
 const Route = use("Route");
 // const pdf2html = require("pdf2html");
-var pdftohtml = require("pdftohtmljs");
+// var pdftohtml = require("pdftohtmljs");
 
 // /** @type {import('@adonisjs/drive/src/DriveManager')} */
 // const Drive = use("Drive");
