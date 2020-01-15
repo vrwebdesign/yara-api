@@ -5,7 +5,7 @@
     <title>PDF.js viewer</title>
     <script src="/pdf.js-viewer/pdf.js"></script> 
     <link rel="stylesheet" href="/pdf.js-viewer/viewer.css">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <style>
       html, body {
         height: 100%;
@@ -390,7 +390,7 @@
     </div>
  
     <script>
-      PDFJS.webViewerLoad('/pdf/{{id}}/source');
+      PDFJS.webViewerLoad('{{url}}');
     </script> 
   </body>
 </html>

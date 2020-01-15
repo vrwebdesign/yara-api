@@ -5,7 +5,7 @@ const Drive = use("Drive");
 const fs = use("fs");
 class PdfController {
   show({ response, params: { id } }) {
-    response.redirect(`${GOOGLE_DRIVE}?url=${BASE_URL}/${id}.pdf/source`);
+    response.redirect(`/pdfreader?url=${BASE_URL}/${id}.pdf`);
   }
   async source({ response, params: { id } }) {
     const is_exist = await Drive.exists(`pdf/${id}.pdf`);

@@ -24,7 +24,7 @@ const Route = use("Route");
 Route.resource("/users", "UserController");
 Route.get("view-pdf/:id", "PdfController.show");
 Route.get("pdf/:id/source", "PdfController.source");
-Route.get("pdfreader/:id", ({ view, params: { id } }) => {
+Route.get("pdfreader", ({ view, request }) => {
   // var converter = new pdftohtml("./public/pdf/1.pdf", "sample.html");
   // converter
   //   .convert("ipad")
@@ -35,5 +35,6 @@ Route.get("pdfreader/:id", ({ view, params: { id } }) => {
   //     console.error("Conversion error: " + err);
   //   });
   // return "<h1>hello</h1>";
-  return view.render("pdfreader", { id });
+  let { url } = request.get();
+  return view.render("pdfreader", { url });
 });
