@@ -1,0 +1,367 @@
+[32minfo[39m: serving app on http://127.0.0.1:80
+
+Error: Cannot find module 'pdftohtmljs'
+
+at C:\yara-api\start\routes.js(anonymous):19
+14  */
+15  
+16  /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
+17  const Route = use("Route");
+18  // const pdf2html = require("pdf2html");
+19  var pdftohtml = require("pdftohtmljs");
+20  
+21  // /** @type {import('@adonisjs/drive/src/DriveManager')} */
+22  // const Drive = use("Drive");
+23  
+24  Route.resource("/users", "UserController");
+
+1 Module.require
+  C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:51
+
+
+Error: Cannot find module 'pdftohtmljs'
+
+at C:\yara-api\start\routes.js(anonymous):19
+14  */
+15  
+16  /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
+17  const Route = use("Route");
+18  // const pdf2html = require("pdf2html");
+19  var pdftohtml = require("pdftohtmljs");
+20  
+21  // /** @type {import('@adonisjs/drive/src/DriveManager')} */
+22  // const Drive = use("Drive");
+23  
+24  Route.resource("/users", "UserController");
+
+1 Module.require
+  C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:51
+
+
+Error: Cannot find module 'pdftohtmljs'
+
+at C:\yara-api\start\routes.js(anonymous):19
+14  */
+15  
+16  /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
+17  const Route = use("Route");
+18  // const pdf2html = require("pdf2html");
+19  var pdftohtml = require("pdftohtmljs");
+20  
+21  // /** @type {import('@adonisjs/drive/src/DriveManager')} */
+22  // const Drive = use("Drive");
+23  
+24  Route.resource("/users", "UserController");
+
+1 Module.require
+  C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:51
+
+
+Error: Cannot find module 'pdftohtmljs'
+
+at C:\yara-api\start\routes.js(anonymous):19
+14  */
+15  
+16  /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
+17  const Route = use("Route");
+18  // const pdf2html = require("pdf2html");
+19  var pdftohtml = require("pdftohtmljs");
+20  
+21  // /** @type {import('@adonisjs/drive/src/DriveManager')} */
+22  // const Drive = use("Drive");
+23  
+24  Route.resource("/users", "UserController");
+
+1 Module.require
+  C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:51
+
+
+Error: Cannot find module 'pdftohtmljs'
+
+at C:\yara-api\start\routes.js(anonymous):19
+14  */
+15  
+16  /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
+17  const Route = use("Route");
+18  // const pdf2html = require("pdf2html");
+19  var pdftohtml = require("pdftohtmljs");
+20  
+21  // /** @type {import('@adonisjs/drive/src/DriveManager')} */
+22  // const Drive = use("Drive");
+23  
+24  Route.resource("/users", "UserController");
+
+1 Module.require
+  C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:51
+
+
+Error: Cannot find module 'pdftohtmljs'
+
+at C:\yara-api\start\routes.js(anonymous):19
+14  */
+15  
+16  /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
+17  const Route = use("Route");
+18  // const pdf2html = require("pdf2html");
+19  var pdftohtml = require("pdftohtmljs");
+20  
+21  // /** @type {import('@adonisjs/drive/src/DriveManager')} */
+22  // const Drive = use("Drive");
+23  
+24  Route.resource("/users", "UserController");
+
+1 Module.require
+  C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:51
+
+
+Error: Cannot find module 'pdftohtmljs'
+
+at C:\yara-api\start\routes.js(anonymous):19
+14  */
+15  
+16  /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
+17  const Route = use("Route");
+18  // const pdf2html = require("pdf2html");
+19  var pdftohtml = require("pdftohtmljs");
+20  
+21  // /** @type {import('@adonisjs/drive/src/DriveManager')} */
+22  // const Drive = use("Drive");
+23  
+24  Route.resource("/users", "UserController");
+
+1 Module.require
+  C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:51
+
+
+Error: Cannot find module 'pdftohtmljs'
+
+at C:\yara-api\start\routes.js(anonymous):19
+14  */
+15  
+16  /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
+17  const Route = use("Route");
+18  // const pdf2html = require("pdf2html");
+19  var pdftohtml = require("pdftohtmljs");
+20  
+21  // /** @type {import('@adonisjs/drive/src/DriveManager')} */
+22  // const Drive = use("Drive");
+23  
+24  Route.resource("/users", "UserController");
+
+1 Module.require
+  C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:51
+
+
+Error: Cannot find module 'pdftohtmljs'
+
+at C:\yara-api\start\routes.js(anonymous):19
+14  */
+15  
+16  /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
+17  const Route = use("Route");
+18  // const pdf2html = require("pdf2html");
+19  var pdftohtml = require("pdftohtmljs");
+20  
+21  // /** @type {import('@adonisjs/drive/src/DriveManager')} */
+22  // const Drive = use("Drive");
+23  
+24  Route.resource("/users", "UserController");
+
+1 Module.require
+  C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:51
+
+
+Error: Cannot find module 'pdftohtmljs'
+
+at C:\yara-api\start\routes.js(anonymous):19
+14  */
+15  
+16  /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
+17  const Route = use("Route");
+18  // const pdf2html = require("pdf2html");
+19  var pdftohtml = require("pdftohtmljs");
+20  
+21  // /** @type {import('@adonisjs/drive/src/DriveManager')} */
+22  // const Drive = use("Drive");
+23  
+24  Route.resource("/users", "UserController");
+
+1 Module.require
+  C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:51
+
+
+Error: Cannot find module 'pdftohtmljs'
+
+at C:\yara-api\start\routes.js(anonymous):19
+14  */
+15  
+16  /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
+17  const Route = use("Route");
+18  // const pdf2html = require("pdf2html");
+19  var pdftohtml = require("pdftohtmljs");
+20  
+21  // /** @type {import('@adonisjs/drive/src/DriveManager')} */
+22  // const Drive = use("Drive");
+23  
+24  Route.resource("/users", "UserController");
+
+1 Module.require
+  C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:51
+
+
+Error: Cannot find module 'pdftohtmljs'
+
+at C:\yara-api\start\routes.js(anonymous):19
+14  */
+15  
+16  /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
+17  const Route = use("Route");
+18  // const pdf2html = require("pdf2html");
+19  var pdftohtml = require("pdftohtmljs");
+20  
+21  // /** @type {import('@adonisjs/drive/src/DriveManager')} */
+22  // const Drive = use("Drive");
+23  
+24  Route.resource("/users", "UserController");
+
+1 Module.require
+  C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:51
+
+
+Error: Cannot find module 'pdftohtmljs'
+
+at C:\yara-api\start\routes.js(anonymous):19
+14  */
+15  
+16  /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
+17  const Route = use("Route");
+18  // const pdf2html = require("pdf2html");
+19  var pdftohtml = require("pdftohtmljs");
+20  
+21  // /** @type {import('@adonisjs/drive/src/DriveManager')} */
+22  // const Drive = use("Drive");
+23  
+24  Route.resource("/users", "UserController");
+
+1 Module.require
+  C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:51
+
+
+Error: Cannot find module 'pdftohtmljs'
+
+at C:\yara-api\start\routes.js(anonymous):19
+14  */
+15  
+16  /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
+17  const Route = use("Route");
+18  // const pdf2html = require("pdf2html");
+19  var pdftohtml = require("pdftohtmljs");
+20  
+21  // /** @type {import('@adonisjs/drive/src/DriveManager')} */
+22  // const Drive = use("Drive");
+23  
+24  Route.resource("/users", "UserController");
+
+1 Module.require
+  C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:51
+
+
+Error: Cannot find module 'pdftohtmljs'
+
+at C:\yara-api\start\routes.js(anonymous):19
+14  */
+15  
+16  /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
+17  const Route = use("Route");
+18  // const pdf2html = require("pdf2html");
+19  var pdftohtml = require("pdftohtmljs");
+20  
+21  // /** @type {import('@adonisjs/drive/src/DriveManager')} */
+22  // const Drive = use("Drive");
+23  
+24  Route.resource("/users", "UserController");
+
+1 Module.require
+  C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:51
+
+
+Error: Cannot find module 'pdftohtmljs'
+
+at C:\yara-api\start\routes.js(anonymous):19
+14  */
+15  
+16  /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
+17  const Route = use("Route");
+18  // const pdf2html = require("pdf2html");
+19  var pdftohtml = require("pdftohtmljs");
+20  
+21  // /** @type {import('@adonisjs/drive/src/DriveManager')} */
+22  // const Drive = use("Drive");
+23  
+24  Route.resource("/users", "UserController");
+
+1 Module.require
+  C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:51
+
+
+Error: Cannot find module 'pdftohtmljs'
+
+at C:\yara-api\start\routes.js(anonymous):19
+14  */
+15  
+16  /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
+17  const Route = use("Route");
+18  // const pdf2html = require("pdf2html");
+19  var pdftohtml = require("pdftohtmljs");
+20  
+21  // /** @type {import('@adonisjs/drive/src/DriveManager')} */
+22  // const Drive = use("Drive");
+23  
+24  Route.resource("/users", "UserController");
+
+1 Module.require
+  C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:51
+
+
+Error: Cannot find module 'pdftohtmljs'
+
+at C:\yara-api\start\routes.js(anonymous):19
+14  */
+15  
+16  /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
+17  const Route = use("Route");
+18  // const pdf2html = require("pdf2html");
+19  var pdftohtml = require("pdftohtmljs");
+20  
+21  // /** @type {import('@adonisjs/drive/src/DriveManager')} */
+22  // const Drive = use("Drive");
+23  
+24  Route.resource("/users", "UserController");
+
+1 Module.require
+  C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:51
+
+
+Error: Cannot find module 'pdftohtmljs'
+
+at C:\yara-api\start\routes.js(anonymous):19
+14  */
+15  
+16  /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
+17  const Route = use("Route");
+18  // const pdf2html = require("pdf2html");
+19  var pdftohtml = require("pdftohtmljs");
+20  
+21  // /** @type {import('@adonisjs/drive/src/DriveManager')} */
+22  // const Drive = use("Drive");
+23  
+24  Route.resource("/users", "UserController");
+
+1 Module.require
+  C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:51
+
+[32minfo[39m: serving app on http://127.0.0.1:80
+[32minfo[39m: serving app on http://127.0.0.1:80
+[32minfo[39m: serving app on http://127.0.0.1:80
+[32minfo[39m: serving app on http://0.0.0.0:80
+[32minfo[39m: serving app on http://0.0.0.0:80
